@@ -56,6 +56,12 @@ wisdomstore
 
 ## 部署流程
 
+### 下载源码
+
+```bash
+git clone https://github.com/mstrTurtle/wisdomstore.git
+```
+
 ### client
 
 ```bash
