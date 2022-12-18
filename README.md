@@ -94,5 +94,6 @@ conda install python=3.10
 pip install uvicorn fastapi python-multipart
 pip install --pre sqlalchemy
 cd service
+mkdir data # 创建图片保存文件夹
 python main.py # 运行服务器
 ```
