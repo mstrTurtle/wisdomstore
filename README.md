@@ -84,6 +84,8 @@ npx next start # 运行服务器
 
 ### service
 
+运行如下命令
+
 ```bash
 cd service
 # 要求安装miniconda
@@ -92,5 +94,12 @@ conda create -n uvi
 conda activate uvi
 conda install python=3.10
 pip install -r requirements.txt # 安装依赖
+```
+
+随后, 打开service/em_config.json, 配置邮箱发送账户和密码.
+
+随后启动服务器:
+
+```bash
 python main.py # 运行服务器
 ```
