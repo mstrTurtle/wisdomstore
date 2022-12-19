@@ -92,6 +92,5 @@ conda create -n uvi
 conda activate uvi
 conda install python=3.10
 pip install -r requirements.txt # 安装依赖
-mkdir data # 创建图片保存文件夹
 python main.py # 运行服务器
 ```
