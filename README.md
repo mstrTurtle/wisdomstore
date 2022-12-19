@@ -85,15 +85,13 @@ npx next start # 运行服务器
 ### service
 
 ```bash
+cd service
 # 要求安装miniconda
 # 创建Python虚拟环境
 conda create -n uvi
 conda activate uvi
 conda install python=3.10
-# 安装依赖
-pip install uvicorn fastapi python-multipart
-pip install --pre sqlalchemy
-cd service
+pip install -r requirements.txt # 安装依赖
 mkdir data # 创建图片保存文件夹
 python main.py # 运行服务器
 ```
