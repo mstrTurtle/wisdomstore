@@ -2,10 +2,12 @@
 
 ## 简介
 
-本仓库包含**传智商城**源码. 此商城由Next.js这个JavaScript框架实现前端, 由Python实现后端.
+本仓库包含**传智商城**(注意, 和教材的传智商城毫无关系, 此项目是独立的项目)源码. 
+
+此商城由Next.js这个JavaScript框架实现前端, 由Python实现后端.
 
 其中, Next.js是一个JavaScript框架, 基于React这个JS库构建. 它提供了页面路由, API访问映射, 前端页面服务器, 网页打包加速等基础机制. 
-通过我个人编写的页面逻辑, 以及借助material-ui样式库, 和我个人编写的css样式, 通过与Python后端的API配合, 实现了前端功能.
+通过我本人编写的页面逻辑, 以及借助material-ui样式库, 和我本人编写的css样式, 通过与Python后端的API配合, 实现了前端功能.
 
 而Python后端, 采用的是Fast API这个API框架. 它能够基于注解, 自动生成API文档(见下文"部署"部分), 而且通过协程, 提供可观的性能.
 对于数据库交互, 采用的是SQLAlchemy这个ORM框架, 它是性能较为优秀的Python ORM框架. 我设计了API, 并编写了业务逻辑, 以及ORM交互部分代码.
@@ -22,11 +24,13 @@
 
 ### 部署地址
 
-https://wisdomstore-client.vercel.app/
-
-或
+国内腾讯云部署(请将加速设施关闭, 获得最好的访问效果):
 
 http://114.132.189.242:3000/
+
+或国外Vercel部署(需要加速设施):
+
+https://wisdomstore-client.vercel.app/
 
 ### 测试ID与口令
 
